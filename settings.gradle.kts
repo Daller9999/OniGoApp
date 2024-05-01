@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "OniGoApp"
 include(":app")
- 
+include(":entity")
+include(":repository")
+include(":api")

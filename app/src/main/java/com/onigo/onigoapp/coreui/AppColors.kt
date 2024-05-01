@@ -1,4 +1,4 @@
-package com.onigo.onigoapp.core
+package com.onigo.onigoapp.coreui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color

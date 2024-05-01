@@ -3,15 +3,15 @@ package com.onigo.onigoapp.coreui
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.CardElevation
 import androidx.compose.runtime.Composable
-import com.onigo.onigoapp.core.AppDimens
+import androidx.compose.ui.unit.dp
 
 val cardZeroElevation: CardElevation
     @Composable
     get() = CardDefaults.cardElevation(
-        defaultElevation = AppDimens.size0,
-        pressedElevation = AppDimens.size0,
-        focusedElevation = AppDimens.size0,
-        hoveredElevation = AppDimens.size0,
-        draggedElevation = AppDimens.size0,
-        disabledElevation = AppDimens.size0
+        defaultElevation = 0.dp,
+        pressedElevation = 0.dp,
+        focusedElevation = 0.dp,
+        hoveredElevation = 0.dp,
+        draggedElevation = 0.dp,
+        disabledElevation = 0.dp
     )

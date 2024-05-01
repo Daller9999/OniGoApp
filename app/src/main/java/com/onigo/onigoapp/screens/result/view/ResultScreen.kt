@@ -18,7 +18,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.onigo.onigoapp.R
-import com.onigo.onigoapp.core.AppColors
+import com.onigo.onigoapp.coreui.AppColors
 import com.onigo.onigoapp.core.Screens
 import com.onigo.onigoapp.coreui.ActionButton
 import com.onigo.onigoapp.screens.login.model.ButtonState

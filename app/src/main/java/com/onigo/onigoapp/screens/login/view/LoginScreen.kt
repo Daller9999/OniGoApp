@@ -15,13 +15,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
 import com.onigo.onigoapp.R
-import com.onigo.onigoapp.core.AppColors
-import com.onigo.onigoapp.core.AppDimens
 import com.onigo.onigoapp.core.Screens
 import com.onigo.onigoapp.coreui.ActionButton
+import com.onigo.onigoapp.coreui.AppColors
 import com.onigo.onigoapp.coreui.EditTextHint
 import com.onigo.onigoapp.screens.login.LoginViewModel
 import com.onigo.onigoapp.screens.login.model.LoginEvent
@@ -53,7 +53,7 @@ private fun CoreView(
         modifier = Modifier
             .fillMaxSize()
             .background(AppColors.white)
-            .padding(all = AppDimens.padding20)
+            .padding(all = 20.dp)
     ) {
         Text(
             text = stringResource(id = R.string.enter_phone_number),

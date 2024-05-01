@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">OniGoApp</string>
+    <string name="enter_phone_number">電話番号の入力</string>
+    <string name="phone_number_hint">電話番号</string>
+    <string name="we_will_send_sms">SMSに認証コードをお送りします</string>
+    <string name="send">送信</string>
+    <string name="success">成功</string>
+    <string name="failure">失敗</string>
+    <string name="return_back">戻る</string>
 </resources>
